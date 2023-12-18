@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JtlyAnalyticsSDK_Example' do
+  pod 'JtlyAnalyticsSDK', :path => '../'
+
+  target 'JtlyAnalyticsSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
