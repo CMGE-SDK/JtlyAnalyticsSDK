@@ -3,6 +3,6 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'JtlyAnalyticsDemo' do
-  pod 'JtlyAnalyticsSDK', :path => '../'
-#  pod 'JtlyAnalyticsSDK',:podspec => '../JtlyAnalyticsSDK.podspec'
+#  pod 'JtlyAnalyticsSDK', :path => '../'
+  pod 'JtlyAnalyticsSDK',:podspec => '../JtlyAnalyticsSDK.podspec'
 end
