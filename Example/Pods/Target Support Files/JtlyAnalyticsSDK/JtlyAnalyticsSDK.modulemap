@@ -1,0 +1,6 @@
+framework module JtlyAnalyticsSDK {
+  umbrella header "JtlyAnalyticsSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

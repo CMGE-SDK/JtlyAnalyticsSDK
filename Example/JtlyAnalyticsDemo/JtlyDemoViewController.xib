@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JtlyDemoViewController">
+            <connections>
+                <outlet property="buttonsCollectionView" destination="ZsF-kJ-06h" id="U3z-SH-VY3"/>
+                <outlet property="configContainerView" destination="7aL-c5-k6M" id="A8W-kb-R62"/>
+                <outlet property="feePointInputTextField" destination="ZRF-1f-hBC" id="mDE-yH-1La"/>
+                <outlet property="gameDataSelectPicker" destination="Exk-Ei-hXg" id="ugR-uD-a5S"/>
+                <outlet property="logPrintTextView" destination="7G3-tf-jHD" id="bl2-rZ-GwS"/>
+                <outlet property="netGameSegControl" destination="Lz9-Aa-LEh" id="0Vk-Fx-3y5"/>
+                <outlet property="projectConfigScrollView" destination="Jv4-vM-BUZ" id="Tvo-Mv-99c"/>
+                <outlet property="regionSegControl" destination="Xm2-y2-sB5" id="smO-2s-cMt"/>
+                <outlet property="screenDirectionSegControl" destination="J6u-Ax-e3Q" id="92G-3a-YyD"/>
+                <outlet property="sdkLoginStyleSegControl" destination="CZV-eX-Vca" id="7bD-YR-yxm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ZsF-kJ-06h">
+                    <rect key="frame" x="52" y="-8" width="448" height="430"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Xu2-8r-1qH">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jv4-vM-BUZ">
+                    <rect key="frame" x="500" y="-8" width="344" height="430"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="systemGrayColor"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="132.58928571428572" y="128.98550724637681"/>
+        </view>
+        <view contentMode="scaleToFill" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="800" verticalCompressionResistancePriority="800" insetsLayoutMarginsFromSafeArea="NO" id="7aL-c5-k6M">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="700"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="计费点：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8g-11-fks">
+                    <rect key="frame" x="-13.5" y="4.5" width="70" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="ZRF-1f-hBC">
+                    <rect key="frame" x="64.5" y="0.0" width="218" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="游戏埋点：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDR-G1-2uG" userLabel="游戏埋点：">
+                    <rect key="frame" x="-30.5" y="71.5" width="87" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Exk-Ei-hXg">
+                    <rect key="frame" x="101" y="48" width="145" height="68"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="145" id="ZIS-Z3-xR7"/>
+                        <constraint firstAttribute="height" constant="68" id="ecf-gc-bBo"/>
+                    </constraints>
+                </pickerView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rnF-rH-a2p" userLabel="line1">
+                    <rect key="frame" x="0.0" y="128" width="347" height="1"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="EJ3-z9-620"/>
+                    </constraints>
+                </view>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="CZV-eX-Vca">
+                    <rect key="frame" x="64.5" y="140" width="218" height="32"/>
+                    <segments>
+                        <segment title="界面登录"/>
+                        <segment title="静默登录"/>
+                        <segment title="API登录"/>
+                    </segments>
+                    <connections>
+                        <action selector="loginStyleChangeAction:" destination="-1" eventType="valueChanged" id="Sc5-BH-ggv"/>
+                    </connections>
+                </segmentedControl>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="J6u-Ax-e3Q">
+                    <rect key="frame" x="128" y="191" width="91" height="32"/>
+                    <segments>
+                        <segment title="横屏"/>
+                        <segment title="竖屏"/>
+                    </segments>
+                    <connections>
+                        <action selector="screenDirectionChangeAction:" destination="-1" eventType="valueChanged" id="Thj-O3-1hE"/>
+                    </connections>
+                </segmentedControl>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Xm2-y2-sB5">
+                    <rect key="frame" x="105" y="242" width="137" height="32"/>
+                    <segments>
+                        <segment title="国内"/>
+                        <segment title="海外"/>
+                        <segment title="台湾"/>
+                    </segments>
+                    <connections>
+                        <action selector="regioinChangeAction:" destination="-1" eventType="valueChanged" id="WTg-Qy-a7p"/>
+                    </connections>
+                </segmentedControl>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Lz9-Aa-LEh">
+                    <rect key="frame" x="128" y="293" width="91" height="32"/>
+                    <segments>
+                        <segment title="网游"/>
+                        <segment title="单机"/>
+                    </segments>
+                    <connections>
+                        <action selector="netGameChangeAction:" destination="-1" eventType="valueChanged" id="fca-vu-vnT"/>
+                    </connections>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="700" verticalCompressionResistancePriority="700" text="必须点击下面保存按钮才生效，点击后会立刻退出应用。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Phn-pt-3Cx">
+                    <rect key="frame" x="98.5" y="344" width="150" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="HjQ-h4-tCu"/>
+                        <constraint firstAttribute="width" constant="150" id="lBD-MU-V59"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="rQz-zX-qD7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNg-FZ-hzA">
+                    <rect key="frame" x="142.5" y="428" width="62" height="30"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    <state key="normal" title="保存配置">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="saveProjConfigAction:" destination="-1" eventType="touchUpInside" id="bGA-uR-fA7"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7G3-tf-jHD">
+                    <rect key="frame" x="10" y="488" width="281" height="212"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEJ-B9-GtG">
+                    <rect key="frame" x="301" y="579" width="36" height="30"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    <state key="normal" title="Clear">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="clearLog:" destination="-1" eventType="touchUpInside" id="CDK-1N-gCI"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vEH-6U-qgH" userLabel="line2">
+                    <rect key="frame" x="0.0" y="466" width="347" height="1"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="DhG-P0-9n3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemGrayColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="rnF-rH-a2p" secondAttribute="trailing" id="03K-gh-fTx"/>
+                <constraint firstItem="J6u-Ax-e3Q" firstAttribute="top" secondItem="CZV-eX-Vca" secondAttribute="bottom" constant="20" id="0Br-4C-4Cn"/>
+                <constraint firstItem="Xm2-y2-sB5" firstAttribute="top" secondItem="J6u-Ax-e3Q" secondAttribute="bottom" constant="20" id="0gG-Dk-BfB"/>
+                <constraint firstItem="Lz9-Aa-LEh" firstAttribute="centerX" secondItem="Xm2-y2-sB5" secondAttribute="centerX" id="0n5-vR-hp6"/>
+                <constraint firstItem="Phn-pt-3Cx" firstAttribute="top" secondItem="Lz9-Aa-LEh" secondAttribute="bottom" constant="20" id="1kl-2z-4BR"/>
+                <constraint firstItem="vEH-6U-qgH" firstAttribute="trailing" secondItem="rnF-rH-a2p" secondAttribute="trailing" id="23T-Y0-iAg"/>
+                <constraint firstItem="ZRF-1f-hBC" firstAttribute="centerX" secondItem="7aL-c5-k6M" secondAttribute="centerX" id="8mJ-QI-Hny"/>
+                <constraint firstAttribute="trailing" secondItem="IEJ-B9-GtG" secondAttribute="trailing" constant="10" id="98L-3f-PeY"/>
+                <constraint firstItem="vEH-6U-qgH" firstAttribute="top" secondItem="YNg-FZ-hzA" secondAttribute="bottom" constant="8" symbolic="YES" id="EKv-ux-DnI"/>
+                <constraint firstItem="J6u-Ax-e3Q" firstAttribute="firstBaseline" secondItem="CZV-eX-Vca" secondAttribute="baseline" constant="16" symbolType="layoutAnchor" id="EuO-vZ-71g"/>
+                <constraint firstItem="ZRF-1f-hBC" firstAttribute="leading" secondItem="g8g-11-fks" secondAttribute="trailing" constant="8" symbolic="YES" id="FEB-70-WqL"/>
+                <constraint firstItem="YNg-FZ-hzA" firstAttribute="top" secondItem="Phn-pt-3Cx" secondAttribute="bottom" constant="20" id="GnJ-LW-Wd3"/>
+                <constraint firstItem="Lz9-Aa-LEh" firstAttribute="top" secondItem="Xm2-y2-sB5" secondAttribute="bottom" constant="20" id="IhK-7s-e2t"/>
+                <constraint firstItem="Xm2-y2-sB5" firstAttribute="centerX" secondItem="J6u-Ax-e3Q" secondAttribute="centerX" id="K3R-6w-T6K"/>
+                <constraint firstItem="7G3-tf-jHD" firstAttribute="leading" secondItem="7aL-c5-k6M" secondAttribute="leading" constant="10" id="LSb-cS-FVA"/>
+                <constraint firstAttribute="bottom" secondItem="7G3-tf-jHD" secondAttribute="bottom" id="MeP-57-n5e"/>
+                <constraint firstItem="IEJ-B9-GtG" firstAttribute="centerY" secondItem="7G3-tf-jHD" secondAttribute="centerY" id="Q9e-93-YCl"/>
+                <constraint firstItem="YNg-FZ-hzA" firstAttribute="centerX" secondItem="Phn-pt-3Cx" secondAttribute="centerX" id="RBa-Qa-4f1"/>
+                <constraint firstItem="J6u-Ax-e3Q" firstAttribute="centerX" secondItem="CZV-eX-Vca" secondAttribute="centerX" id="Sbq-bU-e1i"/>
+                <constraint firstItem="rnF-rH-a2p" firstAttribute="leading" secondItem="7aL-c5-k6M" secondAttribute="leading" id="ToM-YG-SVR"/>
+                <constraint firstItem="7G3-tf-jHD" firstAttribute="top" secondItem="YNg-FZ-hzA" secondAttribute="bottom" constant="30" id="U3K-ps-dJ5"/>
+                <constraint firstItem="Phn-pt-3Cx" firstAttribute="centerX" secondItem="Lz9-Aa-LEh" secondAttribute="centerX" id="UkA-xO-kaf"/>
+                <constraint firstItem="Exk-Ei-hXg" firstAttribute="top" secondItem="ZRF-1f-hBC" secondAttribute="bottom" constant="18" id="XXD-UV-W4o"/>
+                <constraint firstItem="vDR-G1-2uG" firstAttribute="trailing" secondItem="g8g-11-fks" secondAttribute="trailing" id="Zgm-ct-w51"/>
+                <constraint firstItem="CZV-eX-Vca" firstAttribute="top" secondItem="ZRF-1f-hBC" secondAttribute="bottom" constant="110" id="eaI-Bu-BN9"/>
+                <constraint firstItem="rnF-rH-a2p" firstAttribute="top" secondItem="Exk-Ei-hXg" secondAttribute="bottom" constant="12" id="fao-Xx-B8n"/>
+                <constraint firstItem="ZRF-1f-hBC" firstAttribute="trailing" secondItem="CZV-eX-Vca" secondAttribute="trailing" id="gcS-RN-I5k"/>
+                <constraint firstItem="vEH-6U-qgH" firstAttribute="leading" secondItem="rnF-rH-a2p" secondAttribute="leading" id="iox-T8-4Nz"/>
+                <constraint firstItem="g8g-11-fks" firstAttribute="centerY" secondItem="ZRF-1f-hBC" secondAttribute="centerY" id="jjY-j8-zuA"/>
+                <constraint firstItem="ZRF-1f-hBC" firstAttribute="top" secondItem="7aL-c5-k6M" secondAttribute="top" id="jpG-GR-ICf"/>
+                <constraint firstItem="CZV-eX-Vca" firstAttribute="centerX" secondItem="7aL-c5-k6M" secondAttribute="centerX" id="mem-P3-G7t"/>
+                <constraint firstItem="Exk-Ei-hXg" firstAttribute="centerX" secondItem="ZRF-1f-hBC" secondAttribute="centerX" id="oVF-ba-MwL"/>
+                <constraint firstItem="IEJ-B9-GtG" firstAttribute="leading" secondItem="7G3-tf-jHD" secondAttribute="trailing" constant="10" id="pfj-P3-Swx"/>
+                <constraint firstItem="ZRF-1f-hBC" firstAttribute="leading" secondItem="CZV-eX-Vca" secondAttribute="leading" id="roc-lr-9mz"/>
+                <constraint firstItem="vEH-6U-qgH" firstAttribute="height" secondItem="rnF-rH-a2p" secondAttribute="height" id="t7z-4p-mnf"/>
+                <constraint firstItem="vDR-G1-2uG" firstAttribute="centerY" secondItem="Exk-Ei-hXg" secondAttribute="centerY" id="x7W-MZ-Qtb"/>
+                <constraint firstItem="CZV-eX-Vca" firstAttribute="top" secondItem="7aL-c5-k6M" secondAttribute="top" constant="140" id="zjC-fH-lPq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-249.44196428571428" y="1057.9710144927537"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,20 @@
+PODS:
+  - JtlyAnalyticsSDK (1.5.0):
+    - JtlyAnalyticsSDK/JtlyAnalyticsSDK (= 1.5.0)
+    - JtlyAnalyticsSDK/ThinkingSDK (= 1.5.0)
+  - JtlyAnalyticsSDK/JtlyAnalyticsSDK (1.5.0)
+  - JtlyAnalyticsSDK/ThinkingSDK (1.5.0)
+
+DEPENDENCIES:
+  - JtlyAnalyticsSDK (from `../`)
+
+EXTERNAL SOURCES:
+  JtlyAnalyticsSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JtlyAnalyticsSDK: 26461f7c0f8e59ba2bafd3642780550d1303350a
+
+PODFILE CHECKSUM: a5236173f113290d5bebff58cda8835ad3038b42
+
+COCOAPODS: 1.14.2

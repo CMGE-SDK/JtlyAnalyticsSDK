@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JtlyAnalyticsSDK'
-  s.version          = '0.1.0'
+  s.version          = '1.5.0'
   s.summary          = 'A short description of JtlyAnalyticsSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,48 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Huajie Woo/JtlyAnalyticsSDK'
+  s.homepage         = 'https://github.com/WakeyWoo/JtlyAnalyticsSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Huajie Woo' => 'wu.huajie@cmge.com' }
-  s.source           = { :git => 'https://github.com/Huajie Woo/JtlyAnalyticsSDK.git', :tag => s.version.to_s }
+  s.author           = { 'WakeyWoo' => 'hjw728uow@gmail.com' }
+  s.source           = { :git => 'https://github.com/WakeyWoo/JtlyAnalyticsSDK.git', :tag => "1.5.0" }
+  #s.ios.deployment_target = "9.0"
+  s.libraries        = 'sqlite3'
+  s.requires_arc  = true
+  #s.default_subspecs = 'JtlyAnalyticsSDK'
+  s.platform     = :ios, "9.0"
+  # s.dependency 'ThinkingSDK','= 2.7.4' //不需要，源码有问题
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'JtlyAnalyticsSDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JtlyAnalyticsSDK' => ['JtlyAnalyticsSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #s.default_subspec = 'JtlyAnalyticsKit'
+  s.pod_target_xcconfig = {
+    'VALID_ARCHS' => 'arm64'
+  }
+  
+  s.subspec 'JtlyAnalyticsSDK' do |c|
+    c.ios.deployment_target = '9.0'
+    #c.public_header_files = 'JtlyAnalyticsSDK/Frameworks/includes/*.h'
+    c.vendored_frameworks = 'JtlyAnalyticsSDK/Frameworks/JtlyAnalyticsKit.xcframework'
+  
+    c.ios.pod_target_xcconfig = {
+      'OTHER_LDFLAGS' => '-ObjC'
+    }
+    
+    #'LD_RUNPATH_SEARCH_PATHS' => ['/usr/lib/swift', '@executable_path/Frameworks']
+    #c.source_files = 'Sources/Producer/**/*.{h,m}', 'Sources/aliyun-log-c-sdk/**/*.{c,h}'
+    
+  end
+  
+  s.subspec 'ThinkingSDK' do |c|
+      c.ios.deployment_target = '9.0'
+      c.vendored_frameworks = 'JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingSDK.framework'
+      c.ios.pod_target_xcconfig = {
+          'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+      }
+      
+      c.user_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+      }
+  end
+  
 end
