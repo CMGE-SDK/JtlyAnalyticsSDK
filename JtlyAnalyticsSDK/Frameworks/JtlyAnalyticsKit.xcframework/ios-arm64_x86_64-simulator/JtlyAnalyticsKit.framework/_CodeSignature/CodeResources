@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/JtlyAnalytics.h</key>
 		<data>
-		8H5nA7S0Kz+2NDizhlChy6i31e8=
+		tCfWq2Qk2Nwes2/vaXyggdKHsWk=
 		</data>
 		<key>Headers/JtlyAnalyticsConfig.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1msj5mys1vbH6ivl4TMxHXpAi9U=
+		vZX98h0EF4hiu+Hy1WXlgCocBwM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,11 +39,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8H5nA7S0Kz+2NDizhlChy6i31e8=
+			tCfWq2Qk2Nwes2/vaXyggdKHsWk=
 			</data>
 			<key>hash2</key>
 			<data>
-			CXK5pKYSI/nlX0BSjWWgSRK3ggn/gNOeN/y9CXk8QE4=
+			VoukuMxmBcDRUjYR59XXgo7ZxFCfFOlYQtb0QcfMNOg=
 			</data>
 		</dict>
 		<key>Headers/JtlyAnalyticsConfig.h</key>

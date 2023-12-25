@@ -72,6 +72,10 @@ typedef NS_ENUM(NSInteger, JtlyAnalyticsPropertyType) {
 /// @param userID  自定义用户ID
 -(void) setThirdPartyCustomUserID:(NSString *) userID;
 
+/// 设置用户邮箱（注意：接入了主SDK， 不需要接入）
+/// @param emailAddress 邮箱地址
+- (void)setUserEmail:(NSString *)emailAddress;
+
 /**
  返回版本号与构建号信息
  
@@ -107,9 +111,6 @@ typedef NS_ENUM(NSInteger, JtlyAnalyticsPropertyType) {
 
 /// 获取角色id
 - (NSString *)roleId;
-
-/// 清空账号角色信息
-- (void)clearAccountAndRoleInfo;
 
 /// 时长上报（SDK内部调用， 游戏如接入主SDK可忽略）
 /// - Parameters:

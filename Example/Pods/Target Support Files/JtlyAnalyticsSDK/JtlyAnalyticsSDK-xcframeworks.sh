@@ -23,6 +23,18 @@ variant_for_slice()
   "JtlyAnalyticsKit.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
+  "ThinkingDataCore.xcframework/ios-arm64_armv7")
+    echo ""
+    ;;
+  "ThinkingDataCore.xcframework/ios-arm64_i386_x86_64-simulator")
+    echo "simulator"
+    ;;
+  "ThinkingSDK.xcframework/ios-arm64")
+    echo ""
+    ;;
+  "ThinkingSDK.xcframework/ios-arm64_x86_64-simulator")
+    echo "simulator"
+    ;;
   esac
 }
 
@@ -33,6 +45,18 @@ archs_for_slice()
     echo "arm64"
     ;;
   "JtlyAnalyticsKit.xcframework/ios-arm64_x86_64-simulator")
+    echo "arm64 x86_64"
+    ;;
+  "ThinkingDataCore.xcframework/ios-arm64_armv7")
+    echo "arm64 armv7"
+    ;;
+  "ThinkingDataCore.xcframework/ios-arm64_i386_x86_64-simulator")
+    echo "arm64 i386 x86_64"
+    ;;
+  "ThinkingSDK.xcframework/ios-arm64")
+    echo "arm64"
+    ;;
+  "ThinkingSDK.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
   esac
@@ -118,4 +142,6 @@ install_xcframework() {
 }
 
 install_xcframework "${PODS_ROOT}/../../JtlyAnalyticsSDK/Frameworks/JtlyAnalyticsKit.xcframework" "JtlyAnalyticsSDK/JtlyAnalyticsSDK" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingDataCore.xcframework" "JtlyAnalyticsSDK/ThinkingSDK" "framework" "ios-arm64_armv7" "ios-arm64_i386_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingSDK.xcframework" "JtlyAnalyticsSDK/ThinkingSDK" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 

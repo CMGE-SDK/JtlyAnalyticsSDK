@@ -25,14 +25,14 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WakeyWoo' => 'hjw728uow@gmail.com' }
-  s.source           = { :git => 'https://github.com/WakeyWoo/JtlyAnalyticsSDK.git', :tag => "1.5.0" }
+  s.source           = { :git => 'https://github.com/WakeyWoo/JtlyAnalyticsSDK.git', :tag => "1.5.1" }
   #s.ios.deployment_target = "9.0"
   s.libraries        = 'sqlite3'
   s.requires_arc  = true
   #s.default_subspecs = 'JtlyAnalyticsSDK'
   s.platform     = :ios, "9.0"
-  # s.dependency 'ThinkingSDK','= 2.7.4' //不需要，源码有问题
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.dependency 'ThinkingSDK','= 2.7.4'
+  # s.social_media_url = 'https://twitter.com/WakeyWoo'
   
   #s.default_subspec = 'JtlyAnalyticsKit'
   s.pod_target_xcconfig = {
@@ -55,7 +55,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'ThinkingSDK' do |c|
       c.ios.deployment_target = '9.0'
-      c.vendored_frameworks = 'JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingSDK.framework'
+      c.vendored_frameworks = 'JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingDataCore.xcframework', 'JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingSDK.xcframework'
       c.ios.pod_target_xcconfig = {
           'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
       }

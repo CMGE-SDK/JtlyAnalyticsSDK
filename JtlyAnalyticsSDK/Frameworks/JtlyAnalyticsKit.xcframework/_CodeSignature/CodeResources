@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/JtlyAnalyticsKit.framework/Headers/JtlyAnalytics.h</key>
 		<data>
-		8H5nA7S0Kz+2NDizhlChy6i31e8=
+		tCfWq2Qk2Nwes2/vaXyggdKHsWk=
 		</data>
 		<key>ios-arm64/JtlyAnalyticsKit.framework/Headers/JtlyAnalyticsConfig.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>ios-arm64/JtlyAnalyticsKit.framework/Info.plist</key>
 		<data>
-		8krHnDkH9fB8ZU2pX4F6BnEeKEM=
+		3CENF+cEFmJIb15CL1h2VqaGJI4=
 		</data>
 		<key>ios-arm64/JtlyAnalyticsKit.framework/JtlyAnalyticsKit</key>
 		<data>
-		CN3465sl+h9lEOTsbsCnWbESczI=
+		LvxGEICQrHNXO4Ri8vi834yZY1E=
 		</data>
 		<key>ios-arm64/JtlyAnalyticsKit.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>ios-arm64/JtlyAnalyticsKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		c0suJN/AaYFtpAm+DNmrjylm04s=
+		hcp33J8rweMmlcZkbgtZ4rz/d5c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/JtlyAnalyticsKit.framework/Headers/JtlyAnalytics.h</key>
 		<data>
-		8H5nA7S0Kz+2NDizhlChy6i31e8=
+		tCfWq2Qk2Nwes2/vaXyggdKHsWk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/JtlyAnalyticsKit.framework/Headers/JtlyAnalyticsConfig.h</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/JtlyAnalyticsKit.framework/Info.plist</key>
 		<data>
-		1msj5mys1vbH6ivl4TMxHXpAi9U=
+		vZX98h0EF4hiu+Hy1WXlgCocBwM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/JtlyAnalyticsKit.framework/JtlyAnalyticsKit</key>
 		<data>
-		qJmJejY4nt1DrFTTojy+g9W4nZs=
+		UMxoGuZMHyJKRK4rcexj4d4WofY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/JtlyAnalyticsKit.framework/Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/JtlyAnalyticsKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		rc6SpPuC5n4TRmD5z9cT+lmk20k=
+		ZubvLfROPkAtzCttXxDQLpMrDzU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -83,11 +83,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8H5nA7S0Kz+2NDizhlChy6i31e8=
+			tCfWq2Qk2Nwes2/vaXyggdKHsWk=
 			</data>
 			<key>hash2</key>
 			<data>
-			CXK5pKYSI/nlX0BSjWWgSRK3ggn/gNOeN/y9CXk8QE4=
+			VoukuMxmBcDRUjYR59XXgo7ZxFCfFOlYQtb0QcfMNOg=
 			</data>
 		</dict>
 		<key>ios-arm64/JtlyAnalyticsKit.framework/Headers/JtlyAnalyticsConfig.h</key>
@@ -127,22 +127,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8krHnDkH9fB8ZU2pX4F6BnEeKEM=
+			3CENF+cEFmJIb15CL1h2VqaGJI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			4Zun+fkK95PpJJhjC4hx7Pn1xWCSqAbq/avt2yhjVjE=
+			PBVz8wvgEz89py5glv9msrjRfGX4aM0t5aa87NHYroM=
 			</data>
 		</dict>
 		<key>ios-arm64/JtlyAnalyticsKit.framework/JtlyAnalyticsKit</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CN3465sl+h9lEOTsbsCnWbESczI=
+			LvxGEICQrHNXO4Ri8vi834yZY1E=
 			</data>
 			<key>hash2</key>
 			<data>
-			EWPzoQQi93QwBvkopihxYoNEl4bWbeeXMsYYb8TzTYI=
+			KnLbrEso4IU5LUnJavXdE+DcHKpwaQ38b0qWuXZHNY4=
 			</data>
 		</dict>
 		<key>ios-arm64/JtlyAnalyticsKit.framework/Modules/module.modulemap</key>
@@ -171,22 +171,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c0suJN/AaYFtpAm+DNmrjylm04s=
+			hcp33J8rweMmlcZkbgtZ4rz/d5c=
 			</data>
 			<key>hash2</key>
 			<data>
-			CyUnu00eqD2/0PhlZWYX9EC/vQwD15ncx1q+//3/JRc=
+			JMMlhQhhOL4PvfyXLY5IDuKg/KwPq7StBPgrpZzORwk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/JtlyAnalyticsKit.framework/Headers/JtlyAnalytics.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8H5nA7S0Kz+2NDizhlChy6i31e8=
+			tCfWq2Qk2Nwes2/vaXyggdKHsWk=
 			</data>
 			<key>hash2</key>
 			<data>
-			CXK5pKYSI/nlX0BSjWWgSRK3ggn/gNOeN/y9CXk8QE4=
+			VoukuMxmBcDRUjYR59XXgo7ZxFCfFOlYQtb0QcfMNOg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/JtlyAnalyticsKit.framework/Headers/JtlyAnalyticsConfig.h</key>
@@ -226,22 +226,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1msj5mys1vbH6ivl4TMxHXpAi9U=
+			vZX98h0EF4hiu+Hy1WXlgCocBwM=
 			</data>
 			<key>hash2</key>
 			<data>
-			JkG3zGi/zUtcwAU7x2Y3iGcmHyMD4MULtsB7jH+fbsI=
+			bKWxBIDt4CNWnQci5/fx56YBPGHMQtBE9IsMm8ZLDMM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/JtlyAnalyticsKit.framework/JtlyAnalyticsKit</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qJmJejY4nt1DrFTTojy+g9W4nZs=
+			UMxoGuZMHyJKRK4rcexj4d4WofY=
 			</data>
 			<key>hash2</key>
 			<data>
-			uQh1gtiaOEnluduPM6hFvQu5tD8aHD1co5ZzEzXYoso=
+			Rh2r6JZq6ap91PvnN+QdBVhPLEYPFQYw72dZLmTFKMY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/JtlyAnalyticsKit.framework/Modules/module.modulemap</key>
@@ -270,11 +270,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rc6SpPuC5n4TRmD5z9cT+lmk20k=
+			ZubvLfROPkAtzCttXxDQLpMrDzU=
 			</data>
 			<key>hash2</key>
 			<data>
-			wa1V7l6HQLE1MRzAJqoYD5OrXUKvRtvTO90Du/CfnfM=
+			kP5+rBWFyOCbBfGzX3dJi/cSJbqopE5XpUk3OVZdljA=
 			</data>
 		</dict>
 	</dict>
