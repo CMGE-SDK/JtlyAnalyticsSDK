@@ -240,7 +240,7 @@
     //上报事件
     JtlyDemoEvent *event = self.eventList[index];
     JtlyDemoLog(@"logEvent:%@, values:%@", event.eventName, event.parameters);
-    [JtlyAnalytics.shared taLogEvent:event.eventName values:event.parameters isFirstCheck:NO firstCheckId:NO];
+    [JtlyAnalytics.shared taLogEvent:event.eventName values:event.parameters isFirstCheck:NO firstCheckId:nil];
     
     //弹窗提示
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:event.displayName message:[NSString stringWithFormat:@"%@\n%@", event.eventName, event.parameters?:@""] preferredStyle:UIAlertControllerStyleAlert];

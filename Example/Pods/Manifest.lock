@@ -1,9 +1,9 @@
 PODS:
-  - JtlyAnalyticsSDK (1.5.0):
-    - JtlyAnalyticsSDK/JtlyAnalyticsSDK (= 1.5.0)
-    - JtlyAnalyticsSDK/ThinkingSDK (= 1.5.0)
-  - JtlyAnalyticsSDK/JtlyAnalyticsSDK (1.5.0)
-  - JtlyAnalyticsSDK/ThinkingSDK (1.5.0)
+  - JtlyAnalyticsSDK (1.5.1):
+    - JtlyAnalyticsSDK/JtlyAnalyticsSDK (= 1.5.1)
+    - JtlyAnalyticsSDK/ThinkingSDK (= 1.5.1)
+  - JtlyAnalyticsSDK/JtlyAnalyticsSDK (1.5.1)
+  - JtlyAnalyticsSDK/ThinkingSDK (1.5.1)
 
 DEPENDENCIES:
   - JtlyAnalyticsSDK (from `../`)
@@ -13,8 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JtlyAnalyticsSDK: 1b41f927ae13e4ea063eb4102938b7f16a497dc7
+  JtlyAnalyticsSDK: 42890281975ca80bcf33ea4db0984dcd9ca27cc9
 
-PODFILE CHECKSUM: a5236173f113290d5bebff58cda8835ad3038b42
+PODFILE CHECKSUM: c5f675b4debbdfc223fbfc43fc12b35364265104
 
 COCOAPODS: 1.14.2

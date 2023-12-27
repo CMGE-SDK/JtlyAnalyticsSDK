@@ -18,6 +18,7 @@
 		6278E2F926C6405800B843D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6278E2F826C6405800B843D9 /* main.m */; };
 		720DC0B02B3139C300B56224 /* JtlyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 720DC0AF2B3139C300B56224 /* JtlyDemoViewController.m */; };
 		720DC0B62B313E6B00B56224 /* JtlyDemoEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 720DC0B42B313E6B00B56224 /* JtlyDemoEventManager.m */; };
+		721A90F32B3C1AF200E27E01 /* JtlyThinking-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 721A90F12B3C1AF200E27E01 /* JtlyThinking-info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,7 @@
 		720DC0AF2B3139C300B56224 /* JtlyDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JtlyDemoViewController.m; sourceTree = "<group>"; };
 		720DC0B42B313E6B00B56224 /* JtlyDemoEventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JtlyDemoEventManager.m; sourceTree = "<group>"; };
 		720DC0B52B313E6B00B56224 /* JtlyDemoEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JtlyDemoEventManager.h; sourceTree = "<group>"; };
+		721A90F12B3C1AF200E27E01 /* JtlyThinking-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JtlyThinking-info.plist"; sourceTree = "<group>"; };
 		AE648F58C431147F84BFEB31 /* Pods-JtlyAnalyticsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JtlyAnalyticsDemo.release.xcconfig"; path = "Target Support Files/Pods-JtlyAnalyticsDemo/Pods-JtlyAnalyticsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DF29FE70C14D6BB5D4551CD0 /* Pods-JtlyAnalyticsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JtlyAnalyticsDemo.debug.xcconfig"; path = "Target Support Files/Pods-JtlyAnalyticsDemo/Pods-JtlyAnalyticsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 		6278E2E526C6405700B843D9 /* JtlyAnalyticsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				721A90F02B3C1AF200E27E01 /* thirdPartyResources */,
 				6278E2E626C6405700B843D9 /* AppDelegate.h */,
 				6245727B26CA39C10023F9F5 /* AppDelegate.mm */,
 				6278E2F226C6405800B843D9 /* Assets.xcassets */,
@@ -117,6 +120,14 @@
 				6278E2F826C6405800B843D9 /* main.m */,
 			);
 			path = JtlyAnalyticsDemo;
+			sourceTree = "<group>";
+		};
+		721A90F02B3C1AF200E27E01 /* thirdPartyResources */ = {
+			isa = PBXGroup;
+			children = (
+				721A90F12B3C1AF200E27E01 /* JtlyThinking-info.plist */,
+			);
+			path = thirdPartyResources;
 			sourceTree = "<group>";
 		};
 		EF104A25B7A2567E6CFA4187 /* Pods */ = {
@@ -188,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6278E2F626C6405800B843D9 /* LaunchScreen.storyboard in Resources */,
+				721A90F32B3C1AF200E27E01 /* JtlyThinking-info.plist in Resources */,
 				6278E2F326C6405800B843D9 /* Assets.xcassets in Resources */,
 				6245728426CA39C20023F9F5 /* JtlyDemoViewController.xib in Resources */,
 			);
@@ -388,20 +400,11 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				ENABLE_TESTABILITY = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ThirdParty/Appsflyer",
-					"$(PROJECT_DIR)/ThirdParty/SGSDK",
-					"$(PROJECT_DIR)/ThirdParty/FaceBook",
-					"$(PROJECT_DIR)/ThirdParty/ThinkingSDK",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = JtlyAnalyticsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				OTHER_LDFLAGS = "-ObjC";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cmge.sdxm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -428,11 +431,8 @@
 				);
 				INFOPLIST_FILE = JtlyAnalyticsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				OTHER_LDFLAGS = "-ObjC";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cmge.sdxm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -16,6 +16,7 @@
 			dependencies = (
 			);
 			name = JtlyAnalyticsSDK;
+			productName = JtlyAnalyticsSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -37,18 +38,18 @@
 
 /* Begin PBXFileReference section */
 		0498AC656D435D058B093DA8A5D86779 /* JtlyAnalyticsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "JtlyAnalyticsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		0C7DE9180A679FF0079B1CFF90BAF699 /* ThinkingDataCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ThinkingDataCore.xcframework; path = JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingDataCore.xcframework; sourceTree = "<group>"; };
+		0C7DE9180A679FF0079B1CFF90BAF699 /* ThinkingDataCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = ThinkingDataCore.xcframework; path = JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingDataCore.xcframework; sourceTree = "<group>"; };
 		1B2B72347B56DF7291062E8ED17ABD21 /* JtlyAnalyticsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JtlyAnalyticsSDK.debug.xcconfig; sourceTree = "<group>"; };
 		333D8C6E7908E9559AAF9ECDDC64C4AA /* Pods-JtlyAnalyticsDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JtlyAnalyticsDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4EFBA610CEAE5F19A82A16D57127F671 /* JtlyAnalyticsKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = JtlyAnalyticsKit.xcframework; path = JtlyAnalyticsSDK/Frameworks/JtlyAnalyticsKit.xcframework; sourceTree = "<group>"; };
+		4EFBA610CEAE5F19A82A16D57127F671 /* JtlyAnalyticsKit.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BKYK4P9KAG:Huajie Wu"; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = JtlyAnalyticsKit.xcframework; path = JtlyAnalyticsSDK/Frameworks/JtlyAnalyticsKit.xcframework; sourceTree = "<group>"; };
 		50661F337B8FBE8C42FC7A0B771D7C24 /* Pods-JtlyAnalyticsDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JtlyAnalyticsDemo.modulemap"; sourceTree = "<group>"; };
-		54C2C196A379F3B0543D1BBD3A7A632C /* JtlyAnalyticsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JtlyAnalyticsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5B115C8A765B898B031AF7CB8DB41B8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6510C93E5EC8E15795CAE54AD512519E /* ThinkingSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ThinkingSDK.xcframework; path = JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingSDK.xcframework; sourceTree = "<group>"; };
+		54C2C196A379F3B0543D1BBD3A7A632C /* JtlyAnalyticsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JtlyAnalyticsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B115C8A765B898B031AF7CB8DB41B8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6510C93E5EC8E15795CAE54AD512519E /* ThinkingSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = ThinkingSDK.xcframework; path = JtlyAnalyticsSDK/Frameworks/ThinkingSDK/ThinkingSDK.xcframework; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		959619F33FE74C25157B2DC72F3EDC1F /* Pods-JtlyAnalyticsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JtlyAnalyticsDemo-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2A3530D7FCCBB55DA5D933FB6BD49BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2A3530D7FCCBB55DA5D933FB6BD49BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BFA85EB08D025EFFE8E77EE1E4B7136F /* Pods-JtlyAnalyticsDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JtlyAnalyticsDemo-frameworks.sh"; sourceTree = "<group>"; };
 		C0072BD1B70643C845551EB9A7F20098 /* JtlyAnalyticsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JtlyAnalyticsSDK.release.xcconfig; sourceTree = "<group>"; };
 		D5366E08095CE614FA4A7450C1DF5E7C /* Pods-JtlyAnalyticsDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JtlyAnalyticsDemo-Info.plist"; sourceTree = "<group>"; };
